@@ -1,0 +1,14 @@
+C:\Users\Max\codefellows\401 ASP.NET C#\MidtermProject\FunemploymentApi\FunemploymentApi\FunemploymentApi\bin\Debug\netcoreapp2.1\FunemploymentApi.deps.json
+C:\Users\Max\codefellows\401 ASP.NET C#\MidtermProject\FunemploymentApi\FunemploymentApi\FunemploymentApi\bin\Debug\netcoreapp2.1\FunemploymentApi.runtimeconfig.json
+C:\Users\Max\codefellows\401 ASP.NET C#\MidtermProject\FunemploymentApi\FunemploymentApi\FunemploymentApi\bin\Debug\netcoreapp2.1\FunemploymentApi.runtimeconfig.dev.json
+C:\Users\Max\codefellows\401 ASP.NET C#\MidtermProject\FunemploymentApi\FunemploymentApi\FunemploymentApi\bin\Debug\netcoreapp2.1\FunemploymentApi.dll
+C:\Users\Max\codefellows\401 ASP.NET C#\MidtermProject\FunemploymentApi\FunemploymentApi\FunemploymentApi\bin\Debug\netcoreapp2.1\FunemploymentApi.pdb
+C:\Users\Max\codefellows\401 ASP.NET C#\MidtermProject\FunemploymentApi\FunemploymentApi\FunemploymentApi\obj\Debug\netcoreapp2.1\FunemploymentApi.csprojAssemblyReference.cache
+C:\Users\Max\codefellows\401 ASP.NET C#\MidtermProject\FunemploymentApi\FunemploymentApi\FunemploymentApi\obj\Debug\netcoreapp2.1\FunemploymentApi.csproj.CoreCompileInputs.cache
+C:\Users\Max\codefellows\401 ASP.NET C#\MidtermProject\FunemploymentApi\FunemploymentApi\FunemploymentApi\obj\Debug\netcoreapp2.1\FunemploymentApi.RazorAssemblyInfo.cache
+C:\Users\Max\codefellows\401 ASP.NET C#\MidtermProject\FunemploymentApi\FunemploymentApi\FunemploymentApi\obj\Debug\netcoreapp2.1\FunemploymentApi.RazorAssemblyInfo.cs
+C:\Users\Max\codefellows\401 ASP.NET C#\MidtermProject\FunemploymentApi\FunemploymentApi\FunemploymentApi\obj\Debug\netcoreapp2.1\FunemploymentApi.AssemblyInfoInputs.cache
+C:\Users\Max\codefellows\401 ASP.NET C#\MidtermProject\FunemploymentApi\FunemploymentApi\FunemploymentApi\obj\Debug\netcoreapp2.1\FunemploymentApi.AssemblyInfo.cs
+C:\Users\Max\codefellows\401 ASP.NET C#\MidtermProject\FunemploymentApi\FunemploymentApi\FunemploymentApi\obj\Debug\netcoreapp2.1\FunemploymentApi.RazorTargetAssemblyInfo.cache
+C:\Users\Max\codefellows\401 ASP.NET C#\MidtermProject\FunemploymentApi\FunemploymentApi\FunemploymentApi\obj\Debug\netcoreapp2.1\FunemploymentApi.dll
+C:\Users\Max\codefellows\401 ASP.NET C#\MidtermProject\FunemploymentApi\FunemploymentApi\FunemploymentApi\obj\Debug\netcoreapp2.1\FunemploymentApi.pdb
