@@ -28,8 +28,11 @@ namespace FunemploymentApi
         {
             services.AddMvc();
 
-            services.AddDbContext<FunemploymentDBContext>(options => 
-                 options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
+            //services.AddDbContext<FunemploymentDBContext>(options => 
+            //     options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
+
+            services.AddDbContext<FunemploymentDBContext>(options =>
+                 options.UseSqlServer(Configuration.GetConnectionString("ProductionConnection")));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
