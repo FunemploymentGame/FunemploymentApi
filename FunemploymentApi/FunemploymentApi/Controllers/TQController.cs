@@ -62,6 +62,7 @@ namespace FunemploymentApi.Controllers
 
         /// <summary>
         /// find question by id and then update, if no id then make a new question
+        /// IMPORTANT that this only appears when coming from a specific questions page with its ID
         /// </summary>
         /// <param name="id">id of question you wanna update</param>
         /// <param name="question">question name</param>
@@ -69,13 +70,18 @@ namespace FunemploymentApi.Controllers
         [HttpPut("{id}")]
         public async Task<IActionResult> Update(int id, TechnicalQuestion question)
         {
+         
+
             var tq = await _context.TechnicalQuestions.FindAsync(id);
             if(tq == null)
             {
                 return await Create(question);
             }
 
-            tq.Content = question.Content;
+            tq.ProblemDomain = question.ProblemDomain;
+            tq.Difficulty = question.Difficulty;
+            tq.Input = question.Input;
+            tq.Output = question.Output;
 
             _context.TechnicalQuestions.Update(tq);
             await _context.SaveChangesAsync();

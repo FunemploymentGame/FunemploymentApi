@@ -3,14 +3,16 @@ using FunemploymentApi.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace FunemploymentApi.Migrations
 {
     [DbContext(typeof(FunemploymentDBContext))]
-    partial class FunemploymentDBContextModelSnapshot : ModelSnapshot
+    [Migration("20180702203630_TQ-Update")]
+    partial class TQUpdate
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
