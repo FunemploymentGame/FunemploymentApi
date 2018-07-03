@@ -1,6 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\FunemploymentApi",
+    "\\FunemploymentApi\\FunemploymentApi"
   ],
+  "SelectedNode": "\\FunemploymentApi\\FunemploymentApi\\Startup.cs",
   "PreviewInSolutionExplorer": false
 }
