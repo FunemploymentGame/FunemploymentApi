@@ -1,6 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\FunemploymentApi",
+    "\\FunemploymentApi\\FunemploymentApi",
+    "\\FunemploymentApi\\FunemploymentApi\\Controllers"
   ],
   "PreviewInSolutionExplorer": false
 }
