@@ -2,8 +2,8 @@
   "ExpandedNodes": [
     "",
     "\\FunemploymentApi",
-    "\\FunemploymentApi\\FunemploymentApi"
+    "\\FunemploymentApi\\FunemploymentApi",
+    "\\FunemploymentApi\\FunemploymentApi\\Controllers"
   ],
-  "SelectedNode": "\\FunemploymentApi\\FunemploymentApi\\Startup.cs",
   "PreviewInSolutionExplorer": false
 }

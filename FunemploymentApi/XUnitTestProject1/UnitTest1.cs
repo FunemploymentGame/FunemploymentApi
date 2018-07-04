@@ -14,7 +14,7 @@ namespace XUnitTestProject1
         [Fact]
         public async void DatabaseCanSave()
         {
-            new DbContextOptions<FunemploymentDBContext> options =
+            DbContextOptions<FunemploymentDBContext> options =
                 new DbContextOptionsBuilder<FunemploymentDBContext>()
                 .UseInMemoryDatabase("DBCanSave")
                 .Options;
