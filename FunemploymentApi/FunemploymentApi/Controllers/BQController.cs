@@ -38,7 +38,7 @@ namespace FunemploymentApi.Controllers
         /// <param name="id">id of specific question</param>
         /// <returns>not found or the question</returns>
         [HttpGet("{id}", Name ="GetBQ")]
-        public ActionResult<BehaviorQuestion> GetByID(int id)
+        public ActionResult<BehaviorQuestion> GetByID([FromRoute]int id)
         {
             var question = _context.BehaviorQuestions.Find(id);
 
@@ -55,7 +55,7 @@ namespace FunemploymentApi.Controllers
         /// <param name="question">name of the new question</param>
         /// <returns> the new question</returns>
         [HttpPost]
-        public async Task<IActionResult> Create (BehaviorQuestion question)
+        public async Task<IActionResult> Create ([FromBody]BehaviorQuestion question)
         {
             await _context.BehaviorQuestions.AddAsync(question);
             await _context.SaveChangesAsync();
@@ -70,7 +70,7 @@ namespace FunemploymentApi.Controllers
         /// <param name="question">name of the question</param>
         /// <returns>no content or new question created</returns>
         [HttpPut("{id}")]
-        public async Task<IActionResult> Update(int id, BehaviorQuestion question)
+        public async Task<IActionResult> Update([FromRoute]int id, [FromBody]BehaviorQuestion question)
         {
             var bq = _context.BehaviorQuestions.Find(id);
             if(bq == null)
@@ -92,7 +92,7 @@ namespace FunemploymentApi.Controllers
         /// <param name="id">the id of your</param>
         /// <returns>not found if it doesnt exist or No Content</returns>
         [HttpDelete("{id}")]
-        public async Task<IActionResult> Destroy(int id)
+        public async Task<IActionResult> Destroy([FromRoute]int id)
         {
             var question = await _context.BehaviorQuestions.FindAsync(id);
             if (question == null)

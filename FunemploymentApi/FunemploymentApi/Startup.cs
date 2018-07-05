@@ -9,6 +9,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using Swashbuckle.AspNetCore.Swagger;
 
 namespace FunemploymentApi
 {
@@ -27,7 +28,10 @@ namespace FunemploymentApi
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc();
-
+            services.AddSwaggerGen(c =>
+            {
+                c.SwaggerDoc("v1", new Info { Title = "Funemployment Api", Version = "v1" });
+            });
             //services.AddDbContext<FunemploymentDBContext>(options => 
             //     options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
 
@@ -43,6 +47,12 @@ namespace FunemploymentApi
                 app.UseDeveloperExceptionPage();
             }
             app.UseMvcWithDefaultRoute();
+            app.UseSwagger();
+
+            app.UseSwaggerUI(c =>
+            {
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", "Funemployment Api V1");
+            });
 
             app.Run(async (context) =>
             {
