@@ -12,6 +12,9 @@ namespace FunemploymentApi.Controllers
     [ApiController]
     public class TQController : ControllerBase
     {
+        /// <summary>
+        /// connect to database for actions to use later
+        /// </summary>
         private readonly FunemploymentDBContext _context;
 
         public TQController(FunemploymentDBContext context)

@@ -3,7 +3,9 @@
     "",
     "\\FunemploymentApi",
     "\\FunemploymentApi\\FunemploymentApi",
-    "\\FunemploymentApi\\FunemploymentApi\\Controllers"
+    "\\FunemploymentApi\\FunemploymentApi\\Controllers",
+    "\\FunemploymentApi\\XUnitTestProject1"
   ],
+  "SelectedNode": "\\FunemploymentApi\\XUnitTestProject1\\UnitTest1.cs",
   "PreviewInSolutionExplorer": false
 }

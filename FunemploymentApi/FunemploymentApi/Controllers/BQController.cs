@@ -12,7 +12,9 @@ namespace FunemploymentApi.Controllers
     [ApiController]
     public class BQController : ControllerBase
     {
-
+        /// <summary>
+        /// connect to the database for actions to use
+        /// </summary>
         private readonly FunemploymentDBContext _context;
 
         public BQController(FunemploymentDBContext context)
