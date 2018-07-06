@@ -41,25 +41,6 @@ namespace XUnitTestProject1
 
         }
 
-        //[Fact]
-        //public void TestCannotCreateBQ()
-        //{
-        //    DbContextOptions<FunemploymentDBContext> options =
-        //     new DbContextOptionsBuilder<FunemploymentDBContext>()
-        //     .UseInMemoryDatabase("TestCanReadBQ")
-        //     .Options;
-
-        //    using (FunemploymentDBContext context = new FunemploymentDBContext(options))
-        //    {
-        //        BQController bc = new BQController(context);
-
-        //        var test = bc.Create();
-        //        var test2 = bc.GetByID(1).Result;
-
-        //        Assert.IsType<OkObjectResult>(test2);
-        //    }
-        //}
-
         [Fact]
         public void TestCanReadBQ()
         {
