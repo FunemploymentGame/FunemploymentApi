@@ -242,7 +242,6 @@ namespace XUnitTestProject1
                 var test2 = tc.Destroy(2).Result;
 
                 Assert.IsType<NotFoundResult>(test2);
-
             }
         }
     }
