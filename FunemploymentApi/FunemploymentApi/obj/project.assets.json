@@ -12343,11 +12343,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Max\\codefellows\\401 ASP.NET C#\\MidtermProject\\FunemploymentApi\\FunemploymentApi\\FunemploymentApi\\FunemploymentApi.csproj",
+      "projectUniqueName": "C:\\Users\\Max\\codefellows\\401 ASP.NET C#\\MidtermProject\\test\\FunemploymentApi\\FunemploymentApi\\FunemploymentApi\\FunemploymentApi.csproj",
       "projectName": "FunemploymentApi",
-      "projectPath": "C:\\Users\\Max\\codefellows\\401 ASP.NET C#\\MidtermProject\\FunemploymentApi\\FunemploymentApi\\FunemploymentApi\\FunemploymentApi.csproj",
+      "projectPath": "C:\\Users\\Max\\codefellows\\401 ASP.NET C#\\MidtermProject\\test\\FunemploymentApi\\FunemploymentApi\\FunemploymentApi\\FunemploymentApi.csproj",
       "packagesPath": "C:\\Users\\Max\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Max\\codefellows\\401 ASP.NET C#\\MidtermProject\\FunemploymentApi\\FunemploymentApi\\FunemploymentApi\\obj\\",
+      "outputPath": "C:\\Users\\Max\\codefellows\\401 ASP.NET C#\\MidtermProject\\test\\FunemploymentApi\\FunemploymentApi\\FunemploymentApi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
