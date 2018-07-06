@@ -245,31 +245,5 @@ namespace XUnitTestProject1
 
             }
         }
-
-        // Testing Behavior Questions
-
-        [Fact]
-        public async void TestCreateBQ()
-        {
-
-        }
-
-        [Fact]
-        public async void TestReadBQ()
-        {
-
-        }
-
-        [Fact]
-        public async void TestUpdateBQ()
-        {
-
-        }
-
-        [Fact]
-        public async void TestDestroyBQ()
-        {
-
-        }
     }
 }
