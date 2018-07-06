@@ -8,15 +8,15 @@ For an interactive Swagger documentation, go [here](http://funemploymentapi.azur
 
 ## Visual
 This displays all the possible endpoints of the Behavior Question table. 
-![BQ Visual](FunemploymentApi\FunemploymentApi\FunemploymentApi\wwwroot\Api Documentation\BQ Swagger.PNG)
+![BQ Visual](https://github.com/FunemploymentGame/FunemploymentApi/blob/master/FunemploymentApi/FunemploymentApi/wwwroot/Api%20Documentation/BQ%20Swagger.PNG)
 
 This displays all the possible endpoints of the Technical Question table. 
-![TQ Visual](~\Api Documentation\TQ Swagger.PNG)
+![TQ Visual](https://github.com/FunemploymentGame/FunemploymentApi/blob/master/FunemploymentApi/FunemploymentApi/wwwroot/Api%20Documentation/TQ%20Swagger.PNG)
 
 These are the possible accepted data types
-![Models with Accepted Data](~\Api Documentation\Models Swagger.PNG)
+![Models with Accepted Data](https://github.com/FunemploymentGame/FunemploymentApi/blob/master/FunemploymentApi/FunemploymentApi/wwwroot/Api%20Documentation/Models%20Swagger.PNG)
 
 Here is a snippet of a successful Get request by ID
-![Snippet](~\Api Documentation\TQ1.PNG)
-![Snippet2](~\Api Documentation\TQ2.PNG)
+![Snippet](https://github.com/FunemploymentGame/FunemploymentApi/blob/master/FunemploymentApi/FunemploymentApi/wwwroot/Api%20Documentation/TQ1.PNG)
+![Snippet2](https://github.com/FunemploymentGame/FunemploymentApi/blob/master/FunemploymentApi/FunemploymentApi/wwwroot/Api%20Documentation/TQ2.PNG)
 
