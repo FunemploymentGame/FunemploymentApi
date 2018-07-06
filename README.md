@@ -8,7 +8,7 @@ For an interactive Swagger documentation, go [here](http://funemploymentapi.azur
 
 ## Visual
 This displays all the possible endpoints of the Behavior Question table. 
-![BQ Visual](~\Api Documentation\BQ Swagger.PNG)
+![BQ Visual](FunemploymentApi\FunemploymentApi\FunemploymentApi\wwwroot\Api Documentation\BQ Swagger.PNG)
 
 This displays all the possible endpoints of the Technical Question table. 
 ![TQ Visual](~\Api Documentation\TQ Swagger.PNG)
